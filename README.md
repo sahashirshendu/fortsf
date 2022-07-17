@@ -1,4 +1,4 @@
-# Some Essential Fortran Codes
+# Some Essential Programmes in Fortran
 - [Fibonacci Numbers](./fibonacci.f)
 - Root Finding Methods
   - [Bisection Method](./bisection.f)
