@@ -11,7 +11,7 @@
     ```gnuplot
     set term post
     set out 'legendre.ps'
-    plot 'legendre.txt' u 1:2 w l, 'legendre.txt' u 1:3 w l
+    plot 'legendre.txt' u 1:2 w l title 'P_3(x)', 'legendre.txt' u 1:3 w l title 'P_4(x)'
     ```
   - [Orthogonality](./legendre_ort.f)
 - Polynomials
