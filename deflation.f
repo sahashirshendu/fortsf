@@ -10,7 +10,7 @@
       read *, r
       b(n - 1) = a(n)
       do i = 1, n - 1
-        b(n - (i + 1)) = a(n - i) + r * b(n - i)
+      b(n - (i + 1)) = a(n - i) + r * b(n - i)
       end do
       print *, "Coefficients of the polynomial =", a
       print *, "Coefficients of the deflated polynomial =", b
