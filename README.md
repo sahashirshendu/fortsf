@@ -7,6 +7,12 @@
   - [Secant Method](./secant.f)
 - Legendre Polynomials
   - [Recurrence Relation](./legendre.f)
+    - Plot
+    ```gnuplot
+    set term post
+    set out 'legendre.ps'
+    plot 'legendre.txt' u 1:2 w l, 'legendre.txt' u 1:3 w l
+    ```
   - [Orthogonality](./legendre_ort.f)
 - Polynomials
   - [Horner's Method](./horner.f)

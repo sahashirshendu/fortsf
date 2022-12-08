@@ -7,7 +7,7 @@ c Plots of P3(x), P4(x)
       xmax = 1.0
       dx = 0.00001
       x = xmin
-      open (2, file="legendre.dat")
+      open (2, file="legendre.txt")
       do while (x .lt. xmax)
         write (2, *) x, legendre(x, 3), legendre(x, 4)
       x = x + dx
